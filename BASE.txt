@@ -1,0 +1,367 @@
+PRAGMA foreign_keys = '1';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+PRAGMA encoding;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SAVEPOINT "RESTOREPOINT";
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY);
+SELECT * FROM COMPANY LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+DELETE FROM "main"."COMPANY" WHERE _rowid_ IN ('18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7');
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+DELETE FROM "main"."COMPANY" WHERE _rowid_ IN ('6', '5', '4', '3', '2', '1');
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY);
+SELECT * FROM COMPANY LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY);
+SELECT * FROM COMPANY LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY);
+SELECT * FROM COMPANY LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+DELETE FROM "main"."COMPANY" WHERE _rowid_ IN ('12', '11', '10', '9', '8', '7');
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+DELETE FROM "main"."COMPANY" WHERE _rowid_ IN ('6', '5', '4', '3', '2', '1');
+SELECT * FROM COMPANY LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY);
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE=25);
+SELECT * FROM COMPANY WHERE AGE=25 LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE=25);
+SELECT * FROM COMPANY WHERE AGE=25 LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT COUNT(*) FROM (SELECT *FROM COMPANY WHERE ADRESS="TEXAS");
+SELECT *FROM COMPANY WHERE ADRESS="TEXAS" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT *FROM COMPANY WHERE ADRESS="Texas");
+SELECT *FROM COMPANY WHERE ADRESS="Texas" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+DELETE FROM "main"."COMPANY" WHERE _rowid_ IN ('30', '29', '28', '27', '26', '25', '24', '23', '22', '21', '20', '19', '18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7');
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE=25 AND SALARY >= 65000);
+SELECT * FROM COMPANY WHERE AGE=25 AND SALARY >= 65000 LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE=25 AND SALARY >= 65000.00);
+SELECT * FROM COMPANY WHERE AGE=25 AND SALARY >= 65000.00 LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE=25 AND SALARY >= 65000.00);
+SELECT * FROM COMPANY WHERE AGE=25 AND SALARY >= 65000.00 LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE >=25 AND SALARY >= 65000.00);
+SELECT * FROM COMPANY WHERE AGE >=25 AND SALARY >= 65000.00 LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE ADRESS='Norway' OR 'California');
+SELECT * FROM COMPANY WHERE ADRESS='Norway' OR 'California' LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE ADRESS IN('Norway','California'));
+SELECT * FROM COMPANY WHERE ADRESS IN('Norway','California') LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE NAME LIKE 'KI%');
+SELECT * FROM COMPANY WHERE NAME LIKE 'KI%' LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE ADRESS LIKE 'R%');
+SELECT * FROM COMPANY WHERE ADRESS LIKE 'R%' LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE IN (25,27));
+SELECT * FROM COMPANY WHERE AGE IN (25,27) LIMIT 0, 49999;
+SELECT * FROM COMPANY WHERE AGE IN (25,30) LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE IN (25,30));
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY ANY WHERE AGE NOT IN (25,27));
+SELECT * FROM COMPANY ANY WHERE AGE NOT IN (25,27) LIMIT 0, 49999;
+SELECT COUNT(*) FROM (SELECT * FROM COMPANY WHERE AGE BETWEEN 25 AND 27);
+SELECT * FROM COMPANY WHERE AGE BETWEEN 25 AND 27 LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."COMPANY"
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA auto_vacuum;
+PRAGMA automatic_index;
+PRAGMA checkpoint_fullfsync;
+PRAGMA foreign_keys;
+PRAGMA fullfsync;
+PRAGMA ignore_check_constraints;
+PRAGMA journal_mode;
+PRAGMA journal_size_limit;
+PRAGMA locking_mode;
+PRAGMA max_page_count;
+PRAGMA page_size;
+PRAGMA recursive_triggers;
+PRAGMA secure_delete;
+PRAGMA synchronous;
+PRAGMA temp_store;
+PRAGMA user_version;
+PRAGMA wal_autocheckpoint;
+SELECT 'x' NOT LIKE 'X';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."COMPANY"
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."COMPANY"
+SELECT "_rowid_",* FROM "main"."COMPANY" LIMIT 0, 49999;
